@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class DynamcMemory
+class DynamicMemory
 {
     public static void main(String A[])
     {
