@@ -16,6 +16,7 @@ class Single
         System.out.println("End of main");
     }
 }
+
 class Base
 {
     public int i;
