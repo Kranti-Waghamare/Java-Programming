@@ -1,0 +1,13 @@
+import java.io.*;
+
+class BufferdIOX
+{
+    public static void main(String A[]) throws IOException
+    {
+        BufferedReader bobj = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter your name :");
+        String name = bobj.readLine();             //checked exception
+
+        System.out.println("Hello"+name);
+    }
+}
